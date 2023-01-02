@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    background-color: aliceblue;
+   
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.header__content {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: teal;
+
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+
+.form__fieldset {
+    border: 2px solid teal;
+    border-radius: 20px;
+    background-color: hsl(180, 100%, 35%);
+}
+.form__legend{
+    border: 2px solid teal;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: teal;
+    color: aliceblue;
+}
+.form__select{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form__select:hover{
+    background-color: teal;
+    color: aliceblue;
+}
+.form__description{
+    text-align: center;
+    color:aliceblue;
+    padding: 5px;
+    font-size: larger;
+}
+.footer {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+}
+.footer__button{
+    border-radius: 5px;
+    background-color: hsl(180, 100%, 35%);
+    color: aliceblue;
+    padding: 5px;
+    font-size: larger;
+}
+.footer__button:hover{
+    background-color:teal;
+    color:aliceblue;
+}
+.footer__result{
+    font-size: larger;
+}
