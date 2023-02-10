@@ -10,7 +10,7 @@ formElement.addEventListener("submit", (event) => {
     const EUR = 4.64;
     const GBP = 5.48;
     const USD = 4.19;
-    let result;
+     result;
 
     switch (currencies.value) {
         case "EUR":
