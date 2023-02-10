@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
     background-color: aliceblue;
-   
+ 
 }
 
 *,
@@ -11,6 +11,12 @@ html {
     box-sizing: inherit;
 }
 
+.background {
+    background-image: url(https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2022/11/LSE_2022_international-pressures_goldberg_460-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
 .header__content {
     max-width: 500px;
     text-align: center;
@@ -72,4 +78,8 @@ html {
 }
 .footer__result{
     font-size: larger;
+    border: 2px solid teal;
+    border-radius: 20px;
+    background-color: hsl(180, 100%, 35%);
+    padding:3px ;
 }
